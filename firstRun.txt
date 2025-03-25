@@ -1,0 +1,309 @@
+Null Values in each column:
+ PatientID                    0
+Age                          0
+Gender                       0
+Ethnicity                    0
+EducationLevel               0
+BMI                          0
+Smoking                      0
+AlcoholConsumption           0
+PhysicalActivity             0
+DietQuality                  0
+SleepQuality                 0
+FamilyHistoryAlzheimers      0
+CardiovascularDisease        0
+Diabetes                     0
+Depression                   0
+HeadInjury                   0
+Hypertension                 0
+SystolicBP                   0
+DiastolicBP                  0
+CholesterolTotal             0
+CholesterolLDL               0
+CholesterolHDL               0
+CholesterolTriglycerides     0
+MMSE                         0
+FunctionalAssessment         0
+MemoryComplaints             0
+BehavioralProblems           0
+ADL                          0
+Confusion                    0
+Disorientation               0
+PersonalityChanges           0
+DifficultyCompletingTasks    0
+Forgetfulness                0
+Diagnosis                    0
+DoctorInCharge               0
+dtype: int64
+----------------------------------------------------------------------------------------------------
+Duplicate Value:
+0
+----------------------------------------------------------------------------------------------------
+Index(['PatientID', 'Age', 'Gender', 'Ethnicity', 'EducationLevel', 'BMI',
+       'Smoking', 'AlcoholConsumption', 'PhysicalActivity', 'DietQuality',
+       'SleepQuality', 'FamilyHistoryAlzheimers', 'CardiovascularDisease',
+       'Diabetes', 'Depression', 'HeadInjury', 'Hypertension', 'SystolicBP',
+       'DiastolicBP', 'CholesterolTotal', 'CholesterolLDL', 'CholesterolHDL',
+       'CholesterolTriglycerides', 'MMSE', 'FunctionalAssessment',
+       'MemoryComplaints', 'BehavioralProblems', 'ADL', 'Confusion',
+       'Disorientation', 'PersonalityChanges', 'DifficultyCompletingTasks',
+       'Forgetfulness', 'Diagnosis', 'DoctorInCharge'],
+      dtype='object')
+Total Column Number : 35
+----------------------------------------------------------------------------------------------------
+PatientID                      int64
+Age                            int64
+Gender                         int64
+Ethnicity                      int64
+EducationLevel                 int64
+BMI                          float64
+Smoking                        int64
+AlcoholConsumption           float64
+PhysicalActivity             float64
+DietQuality                  float64
+SleepQuality                 float64
+FamilyHistoryAlzheimers        int64
+CardiovascularDisease          int64
+Diabetes                       int64
+Depression                     int64
+HeadInjury                     int64
+Hypertension                   int64
+SystolicBP                     int64
+DiastolicBP                    int64
+CholesterolTotal             float64
+CholesterolLDL               float64
+CholesterolHDL               float64
+CholesterolTriglycerides     float64
+MMSE                         float64
+FunctionalAssessment         float64
+MemoryComplaints               int64
+BehavioralProblems             int64
+ADL                          float64
+Confusion                      int64
+Disorientation                 int64
+PersonalityChanges             int64
+DifficultyCompletingTasks      int64
+Forgetfulness                  int64
+Diagnosis                      int64
+DoctorInCharge                object
+dtype: object
+----------------------------------------------------------------------------------------------------
+      PatientID  Age  Gender  Ethnicity  EducationLevel        BMI  Smoking  \
+2106       6857   70       0          0               1  15.803675        0   
+799        5550   63       0          2               1  24.107192        0   
+1853       6604   79       0          2               1  37.977139        0   
+432        5183   90       1          0               1  26.576837        0   
+1607       6358   79       0          0               0  35.790536        0   
+536        5287   78       0          0               2  39.143949        0   
+2025       6776   74       1          1               0  19.424998        0   
+560        5311   71       1          0               0  33.367674        0   
+1579       6330   77       1          2               1  37.844539        0   
+1421       6172   72       1          0               2  24.777557        0   
+
+      AlcoholConsumption  PhysicalActivity  DietQuality  SleepQuality  \
+2106            2.013190          5.105484     0.032105      9.448988   
+799             4.888163          8.597405     6.179696      9.387843   
+1853           18.223224          6.806548     4.348423      8.951450   
+432            13.144380          3.897729     9.599957      5.072990   
+1607            8.546530          6.582838     7.705018      9.914148   
+536            14.746298          2.974830     1.937331      4.323479   
+2025            0.175518          3.475071     2.544482      5.151361   
+560             3.083614          2.820784     3.361159      5.564564   
+1579           18.553748          0.280959     8.500182      7.154365   
+1421           10.830753          6.646540     7.171433      6.022459   
+
+      FamilyHistoryAlzheimers  CardiovascularDisease  Diabetes  Depression  \
+2106                        0                      0         0           0   
+799                         1                      1         0           1   
+1853                        0                      0         0           1   
+432                         0                      1         0           0   
+1607                        1                      0         1           0   
+536                         0                      0         0           0   
+2025                        0                      0         0           0   
+560                         0                      0         0           0   
+1579                        0                      0         0           0   
+1421                        0                      0         0           0   
+
+      HeadInjury  Hypertension  SystolicBP  DiastolicBP  CholesterolTotal  \
+2106           0             0         153          100        173.026759   
+799            1             0         121           61        235.089412   
+1853           0             0          95           86        251.202234   
+432            0             1         128           84        249.661992   
+1607           0             0         119           61        188.990617   
+536            0             0         148          112        167.085926   
+2025           1             0         105           63        215.081894   
+560            0             0         124           91        154.394994   
+1579           0             0         125          102        152.022937   
+1421           0             1         112          107        251.008740   
+
+      CholesterolLDL  CholesterolHDL  CholesterolTriglycerides       MMSE  \
+2106      137.658641       43.225062                 61.306747   9.166440   
+799       158.669686       67.532505                261.445937   5.404077   
+1853      176.891050       96.208855                173.224630  12.089757   
+432       111.581437       91.661364                160.978709  21.427969   
+1607      191.417197       99.836900                279.075666   8.996840   
+536       104.980173       86.005537                 89.428699  28.333389   
+2025      167.008116       43.162187                347.466897   6.331503   
+560       140.512175       92.628788                155.227123  25.406921   
+1579      150.487258       28.761386                282.018731   4.092128   
+1421      155.310881       78.937397                316.182851  14.489181   
+
+      FunctionalAssessment  MemoryComplaints  BehavioralProblems       ADL  \
+2106              7.605391                 0                   0  3.326549   
+799               7.688360                 0                   0  6.432689   
+1853              7.273192                 1                   0  1.758704   
+432               2.775713                 0                   0  5.682720   
+1607              6.400628                 0                   0  9.201551   
+536               7.879021                 0                   0  0.897258   
+2025              0.979860                 0                   0  7.476960   
+560               7.339194                 0                   0  5.940064   
+1579              6.135386                 1                   1  8.578584   
+1421              0.296929                 1                   0  4.436558   
+
+      Confusion  Disorientation  PersonalityChanges  \
+2106          0               0                   1   
+799           0               0                   0   
+1853          1               0                   1   
+432           0               0                   0   
+1607          0               1                   0   
+536           0               0                   1   
+2025          0               1                   1   
+560           1               0                   0   
+1579          1               0                   0   
+1421          0               0                   0   
+
+      DifficultyCompletingTasks  Forgetfulness  Diagnosis DoctorInCharge  
+2106                          0              0          1      XXXConfid  
+799                           0              0          0      XXXConfid  
+1853                          0              0          1      XXXConfid  
+432                           0              0          0      XXXConfid  
+1607                          1              0          0      XXXConfid  
+536                           1              0          0      XXXConfid  
+2025                          1              0          0      XXXConfid  
+560                           0              1          0      XXXConfid  
+1579                          0              0          1      XXXConfid  
+1421                          0              0          1      XXXConfid  
+----------------------------------------------------------------------------------------------------
+Dropping Columns:['DoctorInCharge']
+Before droping columns the shape is : (2149, 35)
+After droping columns the shape is : (2149, 34)
+----------------------------------------------------------------------------------------------------
+Figure saved at: /deac/csc/vanbastelaerGrp/guptd23/csc790_AI/Assignement1/Alzhemier_Code/EDA_Figures//Target_Distribution.jpeg
+####### SELECTING ALL FEATURES ###########
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.98      0.95       277
+           1       0.96      0.83      0.89       153
+
+    accuracy                           0.93       430
+   macro avg       0.94      0.91      0.92       430
+weighted avg       0.93      0.93      0.93       430
+
+Confusion Matrix:
+ [[272   5]
+ [ 26 127]]
+Accuracy Score:
+ 0.9279069767441861
+####### SELECTING top 10 FEATURES ###########
+##############################
+Top 10 selected features: Index(['EducationLevel', 'SleepQuality', 'FamilyHistoryAlzheimers',
+       'Hypertension', 'CholesterolHDL', 'MMSE', 'FunctionalAssessment',
+       'MemoryComplaints', 'BehavioralProblems', 'ADL'],
+      dtype='object')
+Selected Features : Index(['EducationLevel', 'SleepQuality', 'FamilyHistoryAlzheimers',
+       'Hypertension', 'CholesterolHDL', 'MMSE', 'FunctionalAssessment',
+       'MemoryComplaints', 'BehavioralProblems', 'ADL'],
+      dtype='object')
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       277
+           1       0.96      0.89      0.92       153
+
+    accuracy                           0.95       430
+   macro avg       0.95      0.93      0.94       430
+weighted avg       0.95      0.95      0.95       430
+
+Confusion Matrix:
+ [[271   6]
+ [ 17 136]]
+Accuracy Score:
+ 0.9465116279069767
+K-Fold Cross Validation Scores (k=5): [0.95581395 0.94186047 0.94883721 0.96046512 0.95571096]
+Mean Accuracy: 0.9525
+Standard Deviation: 0.0065
+
+==================================================
+Training Neural Network with Selected Features
+==================================================
+Using device: cpu
+Epoch 1/50 - Train Loss: 0.6509, Train Acc: 0.6079, Val Loss: 0.5352, Val Acc: 0.7535
+Epoch 2/50 - Train Loss: 0.5557, Train Acc: 0.7301, Val Loss: 0.4676, Val Acc: 0.8000
+Epoch 3/50 - Train Loss: 0.4780, Train Acc: 0.7784, Val Loss: 0.4231, Val Acc: 0.8186
+Epoch 4/50 - Train Loss: 0.4361, Train Acc: 0.7935, Val Loss: 0.3948, Val Acc: 0.8395
+Epoch 5/50 - Train Loss: 0.4142, Train Acc: 0.8138, Val Loss: 0.3953, Val Acc: 0.8302
+Epoch 6/50 - Train Loss: 0.4055, Train Acc: 0.8214, Val Loss: 0.3827, Val Acc: 0.8326
+Epoch 7/50 - Train Loss: 0.3953, Train Acc: 0.8266, Val Loss: 0.3638, Val Acc: 0.8535
+Epoch 8/50 - Train Loss: 0.3779, Train Acc: 0.8412, Val Loss: 0.3641, Val Acc: 0.8395
+Epoch 9/50 - Train Loss: 0.3860, Train Acc: 0.8272, Val Loss: 0.3392, Val Acc: 0.8721
+Epoch 10/50 - Train Loss: 0.3957, Train Acc: 0.8278, Val Loss: 0.3553, Val Acc: 0.8558
+Epoch 11/50 - Train Loss: 0.3848, Train Acc: 0.8400, Val Loss: 0.3488, Val Acc: 0.8605
+Epoch 12/50 - Train Loss: 0.3607, Train Acc: 0.8517, Val Loss: 0.3507, Val Acc: 0.8558
+Epoch 13/50 - Train Loss: 0.3785, Train Acc: 0.8394, Val Loss: 0.3566, Val Acc: 0.8535
+Epoch 14/50 - Train Loss: 0.3661, Train Acc: 0.8424, Val Loss: 0.3382, Val Acc: 0.8721
+Epoch 15/50 - Train Loss: 0.3514, Train Acc: 0.8546, Val Loss: 0.3346, Val Acc: 0.8767
+Epoch 16/50 - Train Loss: 0.3551, Train Acc: 0.8569, Val Loss: 0.3170, Val Acc: 0.8860
+Epoch 17/50 - Train Loss: 0.3496, Train Acc: 0.8621, Val Loss: 0.3209, Val Acc: 0.8837
+Epoch 18/50 - Train Loss: 0.3547, Train Acc: 0.8563, Val Loss: 0.3122, Val Acc: 0.8837
+Epoch 19/50 - Train Loss: 0.3476, Train Acc: 0.8610, Val Loss: 0.3222, Val Acc: 0.8814
+Epoch 20/50 - Train Loss: 0.3600, Train Acc: 0.8581, Val Loss: 0.3094, Val Acc: 0.9023
+Epoch 21/50 - Train Loss: 0.3336, Train Acc: 0.8674, Val Loss: 0.3050, Val Acc: 0.8884
+Epoch 22/50 - Train Loss: 0.3454, Train Acc: 0.8639, Val Loss: 0.3123, Val Acc: 0.8884
+Epoch 23/50 - Train Loss: 0.3338, Train Acc: 0.8691, Val Loss: 0.3119, Val Acc: 0.8814
+Epoch 24/50 - Train Loss: 0.3419, Train Acc: 0.8650, Val Loss: 0.3156, Val Acc: 0.8907
+Epoch 25/50 - Train Loss: 0.3226, Train Acc: 0.8709, Val Loss: 0.2983, Val Acc: 0.9000
+Epoch 26/50 - Train Loss: 0.3334, Train Acc: 0.8639, Val Loss: 0.2985, Val Acc: 0.8930
+Epoch 27/50 - Train Loss: 0.3498, Train Acc: 0.8563, Val Loss: 0.3087, Val Acc: 0.8884
+Epoch 28/50 - Train Loss: 0.3388, Train Acc: 0.8621, Val Loss: 0.2948, Val Acc: 0.8953
+Epoch 29/50 - Train Loss: 0.3499, Train Acc: 0.8639, Val Loss: 0.3090, Val Acc: 0.8953
+Epoch 30/50 - Train Loss: 0.3108, Train Acc: 0.8778, Val Loss: 0.2874, Val Acc: 0.8977
+Epoch 31/50 - Train Loss: 0.3252, Train Acc: 0.8656, Val Loss: 0.2901, Val Acc: 0.8930
+Epoch 32/50 - Train Loss: 0.3201, Train Acc: 0.8773, Val Loss: 0.2915, Val Acc: 0.8953
+Epoch 33/50 - Train Loss: 0.3244, Train Acc: 0.8720, Val Loss: 0.2965, Val Acc: 0.8977
+Epoch 34/50 - Train Loss: 0.3156, Train Acc: 0.8767, Val Loss: 0.2881, Val Acc: 0.8977
+Epoch 35/50 - Train Loss: 0.3263, Train Acc: 0.8610, Val Loss: 0.2834, Val Acc: 0.9023
+Epoch 36/50 - Train Loss: 0.3150, Train Acc: 0.8703, Val Loss: 0.2873, Val Acc: 0.8977
+Epoch 37/50 - Train Loss: 0.3092, Train Acc: 0.8807, Val Loss: 0.2915, Val Acc: 0.9000
+Epoch 38/50 - Train Loss: 0.3042, Train Acc: 0.8883, Val Loss: 0.2791, Val Acc: 0.8907
+Epoch 39/50 - Train Loss: 0.3226, Train Acc: 0.8807, Val Loss: 0.2930, Val Acc: 0.8930
+Epoch 40/50 - Train Loss: 0.3154, Train Acc: 0.8773, Val Loss: 0.2843, Val Acc: 0.8977
+Epoch 41/50 - Train Loss: 0.3109, Train Acc: 0.8848, Val Loss: 0.2865, Val Acc: 0.9070
+Epoch 42/50 - Train Loss: 0.2905, Train Acc: 0.8918, Val Loss: 0.2705, Val Acc: 0.9047
+Epoch 43/50 - Train Loss: 0.3098, Train Acc: 0.8802, Val Loss: 0.2870, Val Acc: 0.8977
+Epoch 44/50 - Train Loss: 0.2988, Train Acc: 0.8842, Val Loss: 0.2778, Val Acc: 0.9070
+Epoch 45/50 - Train Loss: 0.3040, Train Acc: 0.8807, Val Loss: 0.2716, Val Acc: 0.9023
+Epoch 46/50 - Train Loss: 0.2989, Train Acc: 0.8918, Val Loss: 0.2684, Val Acc: 0.9093
+Epoch 47/50 - Train Loss: 0.3114, Train Acc: 0.8796, Val Loss: 0.2690, Val Acc: 0.9023
+Epoch 48/50 - Train Loss: 0.3017, Train Acc: 0.8854, Val Loss: 0.2662, Val Acc: 0.8977
+Epoch 49/50 - Train Loss: 0.2851, Train Acc: 0.8883, Val Loss: 0.2726, Val Acc: 0.9023
+Epoch 50/50 - Train Loss: 0.3013, Train Acc: 0.8901, Val Loss: 0.2677, Val Acc: 0.9140
+
+Test Set Evaluation:
+Accuracy: 0.9140
+
+Confusion Matrix:
+[[262  16]
+ [ 21 131]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.94      0.93       278
+           1       0.89      0.86      0.88       152
+
+    accuracy                           0.91       430
+   macro avg       0.91      0.90      0.91       430
+weighted avg       0.91      0.91      0.91       430
+
+Model saved at: /deac/csc/vanbastelaerGrp/guptd23/csc790_AI/Assignement1/Alzhemier_Code/EDA_Figures//alzheimer_neural_model.pth
